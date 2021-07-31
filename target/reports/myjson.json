@@ -1,0 +1,286 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-31T01:49:49.570Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom disconnected: unable to send message to renderer\n  (Session info: chrome\u003d92.0.4515.107)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-H804N15\u0027, ip: \u0027192.168.0.125\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SRISRE~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:51124}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 748b0e9b72206a5857c3a0dd203e5330\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat cucumberpracticeProject.DriverInitialisation.invokeDriver(DriverInitialisation.java:14)\r\n\tat cucumberpracticeProject.StepDefinition.Hooks.callDriver(Hooks.java:17)\r\n",
+              "duration": 49219000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "cucumberpracticeProject.StepDefinition.Hooks.callDriver()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Facebook login",
+        "description": "",
+        "id": "basic-for-report-practice;facebook-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1068000000,
+              "status": "skipped"
+            },
+            "line": 3,
+            "name": "when user enter username \"merla\" and password \"devi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "merla",
+                  "offset": 26
+                },
+                {
+                  "val": "devi",
+                  "offset": 47
+                }
+              ],
+              "location": "cucumberpracticeProject.StepDefinition.FeatureBasicStepDefinition.when_user_enter_username_something_and_password_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 111000000,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "click on submit",
+            "match": {
+              "location": "cucumberpracticeProject.StepDefinition.FeatureBasicStepDefinition.click_on_submit()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "error displays",
+            "match": {
+              "location": "cucumberpracticeProject.StepDefinition.FeatureBasicStepDefinition.error_displays()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-31T01:49:49.585Z",
+        "before": [
+          {
+            "result": {
+              "duration": 58438000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumberpracticeProject.StepDefinition.Hooks.callDriver()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Facebook login",
+        "description": "",
+        "id": "basic-for-report-practice;facebook-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "when user enter username \"merla\" and password \"devi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "merla",
+                  "offset": 26
+                },
+                {
+                  "val": "devi",
+                  "offset": 47
+                }
+              ],
+              "location": "cucumberpracticeProject.StepDefinition.FeatureBasicStepDefinition.when_user_enter_username_something_and_password_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on submit",
+            "match": {
+              "location": "cucumberpracticeProject.StepDefinition.FeatureBasicStepDefinition.click_on_submit()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "error displays",
+            "match": {
+              "location": "cucumberpracticeProject.StepDefinition.FeatureBasicStepDefinition.error_displays()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-31T01:49:49.554Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome\u003d92.0.4515.107)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-H804N15\u0027, ip: \u0027192.168.0.125\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00522A33+2501171]\n\tOrdinal0 [0x004BD1C1+2085313]\n\tOrdinal0 [0x003C1FA8+1056680]\n\tOrdinal0 [0x003B5474+1004660]\n\tOrdinal0 [0x003B50B6+1003702]\n\tOrdinal0 [0x003B47FA+1001466]\n\tOrdinal0 [0x003B398D+997773]\n\tOrdinal0 [0x003B3D57+998743]\n\tOrdinal0 [0x003C9D20+1088800]\n\tOrdinal0 [0x003C41DB+1065435]\n\tOrdinal0 [0x003C3D55+1064277]\n\tOrdinal0 [0x003C455B+1066331]\n\tOrdinal0 [0x003C4800+1067008]\n\tOrdinal0 [0x0040AAA8+1354408]\n\tOrdinal0 [0x0040960A+1349130]\n\tOrdinal0 [0x0040551B+1332507]\n\tOrdinal0 [0x003E1D74+1187188]\n\tOrdinal0 [0x003E2BD9+1190873]\n\tGetHandleVerifier [0x0069EFE6+1504438]\n\tGetHandleVerifier [0x0074DDA5+2220661]\n\tGetHandleVerifier [0x005A5589+481881]\n\tGetHandleVerifier [0x005A4639+477961]\n\tOrdinal0 [0x004C28BD+2107581]\n\tOrdinal0 [0x004C6728+2123560]\n\tOrdinal0 [0x004C6862+2123874]\n\tOrdinal0 [0x004CFA81+2161281]\n\tBaseThreadInitThunk [0x7657FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77B67A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77B67A4E+238]\n\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\r\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)\r\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)\r\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)\r\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)\r\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)\r\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat cucumberpracticeProject.DriverInitialisation.invokeDriver(DriverInitialisation.java:13)\r\n\tat cucumberpracticeProject.StepDefinition.Hooks.callDriver(Hooks.java:17)\r\n",
+              "duration": 68059000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "cucumberpracticeProject.StepDefinition.Hooks.callDriver()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Facebook login",
+        "description": "",
+        "id": "basic-for-report-practice;facebook-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "when user enter username \"merla\" and password \"devi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "merla",
+                  "offset": 26
+                },
+                {
+                  "val": "devi",
+                  "offset": 47
+                }
+              ],
+              "location": "cucumberpracticeProject.StepDefinition.FeatureBasicStepDefinition.when_user_enter_username_something_and_password_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "click on submit",
+            "match": {
+              "location": "cucumberpracticeProject.StepDefinition.FeatureBasicStepDefinition.click_on_submit()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "error displays",
+            "match": {
+              "location": "cucumberpracticeProject.StepDefinition.FeatureBasicStepDefinition.error_displays()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-31T01:49:49.570Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome\u003d92.0.4515.107)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-H804N15\u0027, ip: \u0027192.168.0.125\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\SRISRE~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:51123}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 68aa53dc2006b6df5da27de5bf997ef3\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat cucumberpracticeProject.DriverInitialisation.invokeDriver(DriverInitialisation.java:14)\r\n\tat cucumberpracticeProject.StepDefinition.Hooks.callDriver(Hooks.java:17)\r\n",
+              "duration": 52299000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "cucumberpracticeProject.StepDefinition.Hooks.callDriver()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Facebook login",
+        "description": "",
+        "id": "basic-for-report-practice;facebook-login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "when user enter username \"merla\" and password \"devi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "merla",
+                  "offset": 26
+                },
+                {
+                  "val": "devi",
+                  "offset": 47
+                }
+              ],
+              "location": "cucumberpracticeProject.StepDefinition.FeatureBasicStepDefinition.when_user_enter_username_something_and_password_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "click on submit",
+            "match": {
+              "location": "cucumberpracticeProject.StepDefinition.FeatureBasicStepDefinition.click_on_submit()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 98000000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "error displays",
+            "match": {
+              "location": "cucumberpracticeProject.StepDefinition.FeatureBasicStepDefinition.error_displays()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Basic for report practice",
+    "description": "",
+    "id": "basic-for-report-practice",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/cucumberpracticeProject/Feature/featureBasic.feature",
+    "tags": []
+  }
+]
